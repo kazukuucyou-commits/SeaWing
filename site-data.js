@@ -6,6 +6,14 @@ window.seaWingSiteData = {
     },
     projects: [
         {
+            status: '開発中',
+            title: '３S－１',
+            description: 'NPCが指定してくる3桁の数字を当てて、得点を稼ごう！',
+            platform: 'Android',
+            icon: 'assets/3s-1-icon.svg',
+            linkLabel: '開発中',
+        },
+        {
             status: '公開直前',
             title: '3S-0',
             description: '数字を積み上げ、積み上げた合計が10/20/30/40/50を目指してポイントを稼ぐゲームです。',
@@ -15,6 +23,10 @@ window.seaWingSiteData = {
         },
     ],
     updates: [
+        {
+            date: '2026.04.03',
+            text: '開発中タイトル「３S－１」をゲーム一覧に追加しました。',
+        },
         {
             date: '2026.04.03',
             text: '公開直前タイトル「3S-0」を掲載しました。',
