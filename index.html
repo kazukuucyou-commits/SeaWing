@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeaWing | Game Development Log</title>
+    <meta name="description" content="SeaWingはゲーム制作の進捗、作品情報、開発ログを公開するゲーム開発サイトです。">
+    <meta name="theme-color" content="#edf8ff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/seawing-symbol.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="page">
+        <header class="hero">
+            <div class="hero-brand">
+                <img src="assets/seawing-symbol.svg" alt="SeaWingロゴ">
+                <div>
+                    <p class="brand-label">SeaWing</p>
+                    <h1 id="hero-title">こんなゲーム公開中です。</h1>
+                </div>
+            </div>
+            <p id="hero-text" class="hero-text">SeaWingが公開中、制作中のゲームと最近の更新だけをまとめたシンプルなページです。</p>
+            <p id="team-note" class="hero-note">SeaWingは開発チーム名です。</p>
+        </header>
+
+        <section id="projects" class="section">
+            <div class="section-head">
+                <h2>ゲーム</h2>
+                <p>公開中かどうか、どんなゲームかがすぐ分かる形にしています。</p>
+            </div>
+            <div id="project-grid" class="project-grid"></div>
+        </section>
+
+        <section id="updates" class="section two-column">
+            <div>
+                <div class="section-head">
+                    <h2>更新</h2>
+                    <p>新しい告知を上に足していくだけです。</p>
+                </div>
+                <div id="update-list" class="simple-list"></div>
+            </div>
+
+            <div>
+                <div class="section-head">
+                    <h2>リンク</h2>
+                    <p>ストアやSNSの導線だけ置けます。</p>
+                </div>
+                <div id="contact-links" class="link-list"></div>
+            </div>
+        </section>
+
+        <footer class="site-footer">
+            <p>© <span id="current-year"></span> SeaWing</p>
+        </footer>
+    </main>
+
+    <script src="site-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
