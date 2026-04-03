@@ -19,7 +19,7 @@ const renderProjects = () => {
 
     container.innerHTML = items.map((item) => {
         const iconMarkup = item.icon
-            ? `<img class="project-icon" src="${item.icon}" alt="${item.title} アイコン" onerror="this.src='assets/seawing-symbol.svg'">`
+            ? `<img class="project-icon" src="${item.icon}" alt="${item.title} アイコン" onerror="this.src='assets/seawing-icon.png'">`
             : '';
         const hasAction = item.link && item.link !== '#';
         const actionMarkup = hasAction
